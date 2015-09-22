@@ -51,6 +51,7 @@ public class Quiz1 {
         //make carl move up the stairs and collect the things
         carl.move();
         carl.pickThing();
+        while (carl.countThingsInBackpack()!=4){
         carl.turnLeft();
         carl.move();
         carl.turnLeft();
@@ -58,24 +59,12 @@ public class Quiz1 {
         carl.turnLeft();
         carl.move();
         carl.pickThing();
-        carl.turnLeft();
-        carl.move();
-        carl.turnLeft();
-        carl.turnLeft();
-        carl.turnLeft();
-        carl.move();
-        carl.pickThing();
-        carl.turnLeft();
-        carl.move();
-        carl.turnLeft();
-        carl.turnLeft();
-        carl.turnLeft();
-        carl.move();
-        carl.pickThing();
+        }
         
         //make carl go down the stairs and drop the things off as he goes
         carl.move();
         carl.putThing();
+        while (carl.countThingsInBackpack()!=0){
         carl.move();
         carl.turnLeft();
         carl.turnLeft();
@@ -83,20 +72,7 @@ public class Quiz1 {
         carl.move();
         carl.putThing();
         carl.turnLeft();
-        carl.move();
-        carl.turnLeft();
-        carl.turnLeft();
-        carl.turnLeft();
-        carl.move();
-        carl.putThing();
-        carl.turnLeft();
-        carl.move();
-        carl.turnLeft();
-        carl.turnLeft();
-        carl.turnLeft();
-        carl.move();
-        carl.putThing();
-        carl.turnLeft();
+        }
         carl.move();
         
         
