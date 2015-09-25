@@ -44,31 +44,33 @@ public class Quiz1 {
         new Thing(NYC, 2, 3); 
         new Thing(NYC, 1, 4); 
         
+        // Karel starts to pick up the things
+        karel.move();
+        karel.pickThing();
+        karel.turnLeft();
+        karel.move();
+        karel.turnLeft();
+        karel.turnLeft();
+        karel.turnLeft();
+        karel.move();
+        karel.pickThing();
+        karel.turnLeft();
+        karel.move();
+        karel.turnLeft();
+        karel.turnLeft();
+        karel.turnLeft();
+        karel.move();
+        karel.pickThing();
+        karel.turnLeft();
+        karel.move();
+        karel.turnLeft();
+        karel.turnLeft();
+        karel.turnLeft();
+        karel.move();
+        karel.pickThing();
+        karel.move();
         
-        karel.move();
-        karel.pickThing();
-        karel.turnLeft();
-        karel.move();
-        karel.turnLeft();
-        karel.turnLeft();
-        karel.turnLeft();
-        karel.move();
-        karel.pickThing();
-        karel.turnLeft();
-        karel.move();
-        karel.turnLeft();
-        karel.turnLeft();
-        karel.turnLeft();
-        karel.move();
-        karel.pickThing();
-        karel.turnLeft();
-        karel.move();
-        karel.turnLeft();
-        karel.turnLeft();
-        karel.turnLeft();
-        karel.move();
-        karel.pickThing();
-        karel.move();
+        //Karel starts to put down the things
         karel.putThing();
         karel.move();
         karel.turnLeft();
